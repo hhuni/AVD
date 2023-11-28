@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "Location": {
+            "value": "KoreaCentral"
+        },
+        "NamePrefix": {
+            "value": "TEST-VM"
+        },
+        "NumberOfVms": {
+            "value": 2
+        },
+        "ScriptUri": {
+            "value": "https://github.com/hhuni/AVD.git/script.ps1"
+        },
+        "VirtualMachineIndex": {
+            "value": 1
+        }
+    }
+}
